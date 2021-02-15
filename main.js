@@ -1,0 +1,11 @@
+setInterval(function(){
+    x=Math.floor(Math.random()*3);
+    if(x==1){
+        document.getElementById("col").style.backgroundColor="red";
+        document.getElementById("col").style.color="blue";
+    }
+    if(x==2){
+        document.getElementById("col").style.backgroundColor="blue";
+        document.getElementById("col").style.color="red";
+    }
+},250)

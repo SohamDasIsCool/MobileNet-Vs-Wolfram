@@ -1,0 +1,36 @@
+.header_div{
+    background: rgb(255, 255, 255);
+    color:red;
+}
+
+.header_div img{
+    width:100px;
+}
+
+.main_div{
+    background:#ec0000;
+    padding:10px;
+    margin-top:15px;
+    border:3px solid wheat;
+}
+
+.main_div label{
+    background:#ffffff;
+    width:310;
+    padding:10px;
+    margin-bottom: 0px;
+    box-shadow:5px 5px 18px wheat;
+}
+
+#camera{
+    border:2px solid wheat;
+    width:310px;
+    height:300px;
+    box-shadow:0px 0px 100px white ;
+}
+
+.main_div button{
+   width:310px;
+   font-size: 16px;
+   box-shadow:0px 0px 100px whitesmoke;
+}
