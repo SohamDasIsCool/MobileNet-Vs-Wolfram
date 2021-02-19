@@ -29,6 +29,13 @@
     box-shadow:0px 0px 100px white ;
 }
 
+#snapshot{
+    border:2px solid wheat;
+    width:310px;
+    height:300px;
+    box-shadow:0px 0px 100px white ;
+}
+
 .main_div button{
    width:310px;
    font-size: 16px;

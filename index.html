@@ -15,14 +15,27 @@
 
   <body>
     <center>
+      <div>
+        <li>
+          <b>Test Image-</b><img src="Something.jpg" class="img-responsive"width="500" height="500">
+        </li>
+        <h5>Output on Miscrosoft Azure-</h5><span></span>
+        <h5>Output on MobileNet-</h5><span></span>
+      </div>
+    <hr>
     <div class="col-xs-12 header_div">
-    <h2 style="color: red;" id="col">MobileNet Vs Wolfram-Which Is Better
+    <h2 style="color: red;" id="col">MobileNet Vs Azure-Which Is Better
     </h2>
     </div>
     <div class="col-sm-6 col-xs-12 main_div">
       <label>Webcam view-</label>
       <div id="camera"></div>
       <button onclick="take_snapshot()" class="btn btn-info">Capture Image</button>
+    </div>
+    <div class="col-sm-6 col-xs-12 main_div">
+      <label>Snapshot-</label>
+      <div id="snapshot"></div>
+      <button onclick="check()" class="btn btn-info">Capture Image</button>
     </div>
     </center>
 
